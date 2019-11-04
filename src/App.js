@@ -30,7 +30,7 @@ function App() {
       <section className="buttons">
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
-          <select name="Home Score" className='score-dropddown' id="home-score" value='0' onChange={ (e) => setHomeScore(homeScore + parseInt(e.target.value)) }>
+          <select name="Home Score" className='score-dropdown' id="home-score" value='0' onChange={ (e) => setHomeScore(homeScore + parseInt(e.target.value)) }>
             <option value="0">Home Team</option>
             <option value="6">touchdown</option>
             <option value="1">extra point</option>
@@ -39,7 +39,7 @@ function App() {
             <option value="2">safety</option>
           </select>
 
-          <select name="Away Score" className='score-dropddown' id="away-score" value='0' onChange={ (e) => setAwayScore(awayScore + parseInt(e.target.value)) }>
+          <select name="Away Score" className='score-dropdown' id="away-score" value='0' onChange={ (e) => setAwayScore(awayScore + parseInt(e.target.value)) }>
             <option value="0">Away Team</option>
             <option value="6">touchdown</option>
             <option value="1">extra point</option>

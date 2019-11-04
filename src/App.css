@@ -5,11 +5,11 @@
 
 .scoreboard {
   width: 58%;
-  margin: 10rem auto;
+  margin: 2rem auto;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
-  margin-top: 10rem;
+  margin-top: 3rem;
   padding: 5rem;
   border: 4px solid #aaaaaa;
 }
@@ -30,15 +30,15 @@
   place-items: center;
   border: 3px solid white;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 20rem;
 }
 
 .home {
-  background-color: #656565;
+  background-color: midnightblue;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: darkred;
 }
 
 .home__name,

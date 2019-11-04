@@ -57,6 +57,30 @@ button:active {
   transform: scale(0.99);
 }
 
+
+.homeButtons {
+  /* border: 1px solid red; */
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
 .score-dropdown {
-  
+  /* margin: 10px; */
+  height: 100%;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: 2px solid slategrey;
+}
+
+#home-score {
+  background-color: midnightblue;
+}
+
+#away-score {
+  background-color: darkred;
 }
